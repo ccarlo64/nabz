@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+
+         <TextView
+         android:id="@+id/textViewUtente"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="@string/dialog_setting_utente" />
+
+         <EditText
+             android:id="@+id/utente"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:ems="10" >
+
+             <requestFocus />
+         </EditText>
+
+         <TextView
+         android:id="@+id/textViewpwd"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="@string/dialog_setting_password" />
+
+         <EditText
+             android:id="@+id/password"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:inputType="textPassword"
+             android:ems="10" >
+         </EditText>         
+         
+         <TextView
+         android:id="@+id/textViewServer"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="@string/dialog_setting_server" />
+
+         <EditText
+             android:id="@+id/server"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:ems="10" >
+         </EditText>         
+
+         <TextView
+         android:id="@+id/textViewMac"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="@string/dialog_setting_mac" />
+
+         <EditText
+             android:id="@+id/coniglio"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:ems="10" >
+         </EditText>    
+         
+         
+<LinearLayout 
+  android:orientation="horizontal"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+    
+     <Button
+         android:id="@+id/dialogButtonOK"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="@string/dialog_setting_cancel" />
+
+     <Button
+         android:id="@+id/salvaDati"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="@string/dialog_setting_save" />
+
+
+</LinearLayout>
+     
+     
+
+     
+</LinearLayout>
+

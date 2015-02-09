@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Nabz</string>
+    <string name="action_settings">Paramètres</string>
+
+    <string name="net_ok">connecté</string>
+    <string name="net_ko">NON connecté</string>
+    <string name="dialog_setting">Connection paramètres</string>
+    <string name="update_ok">updated</string>
+
+    <string name="dialog_setting_utente">Login</string>
+    <string name="dialog_setting_password">Mot de passe</string>
+    <string name="dialog_setting_mac">Mac adresse</string>
+    <string name="dialog_setting_server">Serveur</string>
+    <string name="dialog_setting_cancel">Annule</string>    
+    <string name="dialog_setting_save">Sauver</string>        
+    
+    
+    <string name="plugin_left">Oreille gauche</string>
+    <string name="plugin_right">Oreille droite</string>
+    <string name="plugin_send">Envoyer au lapin</string>
+    
+    <string name="plugin_title1">Oreille mouvement</string>
+    <string name="plugin_title2">Envoyer a texte</string>
+    <string name="plugin_title3">Couleur de la respiration</string>
+    
+    
+    <string-array
+        name="array_plugin">
+        <item>Ambient (oreille mouvement)</item>
+        <item>Envoyer a texte</item>
+        <item>Couleur de la respiration</item>
+        <item>todo...</item>
+    </string-array>
+
+    <string-array
+        name="array_colori">
+        <item>none</item>
+        <item>blue</item>
+        <item>green</item>
+        <item>cyan</item>
+        <item>red</item>
+        <item>violet</item>
+        <item>yellow</item>
+        <item>white</item>
+        </string-array>
+    
+</resources>

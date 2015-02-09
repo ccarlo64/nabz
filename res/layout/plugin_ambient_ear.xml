@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvAmbientLeft"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/plugin_left"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <SeekBar
+        android:id="@+id/sbLeft"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:max="17" />
+
+        <TextView
+            android:id="@+id/textSeekBarSx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0" />
+    
+    <TextView
+        android:id="@+id/tvAmbientRight"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/plugin_right"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <SeekBar
+        android:id="@+id/sbRight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="17" />
+    <TextView
+            android:id="@+id/textSeekBarDx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0" />
+    
+    <Button
+        android:id="@+id/bntAmbientEar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/plugin_send" />
+
+     
+</LinearLayout>
